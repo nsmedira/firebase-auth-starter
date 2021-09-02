@@ -1,0 +1,21 @@
+.list-description {
+  dt,
+  dd {
+    display: inline;
+    margin-inline-start: initial;
+  }
+
+  dt {
+    font-weight: 600;
+    user-select: none;
+
+    &::after {
+      content: ": ";
+    }
+  }
+
+  .label-value-pair {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
